@@ -1,4 +1,5 @@
 """This module contains class definitions for storing media files"""
+
 import webbrowser
 
 class Movie():
@@ -20,6 +21,7 @@ class Movie():
             poster_image (str): Url of the poster image
             trailer_youtube (str): URL of the Youtube trailer
         """
+
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
