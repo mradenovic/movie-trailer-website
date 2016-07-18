@@ -10,6 +10,10 @@ There are two download options available:
 * [Download ZIP file]() and extract
 * clone the repo: `git clone https://github.com/mradenovic/movie-trailer-website.git`
 
-To run the app:  
+To run the code from the command line:  
 `cd movie-trailer-website/movie_trailer_website`  
 `python entertainment_center.py`  
+
+To run the code from from python code:
+`import movie_trailer_website`
+`movie_trailer_website.open()`
