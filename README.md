@@ -14,6 +14,6 @@ To run the code from the command line:
 `cd movie-trailer-website/movie_trailer_website`  
 `python entertainment_center.py`  
 
-To run the code from from python code:
-`import movie_trailer_website`
-`movie_trailer_website.open()`
+To run the code from from python code:  
+`import movie_trailer_website`  
+`movie_trailer_website.open()`  
