@@ -18,7 +18,14 @@ the_intouchables = media.Movie("The Intouchables",
                                "https://www.youtube.com/watch?v=34WIbmXkewU")
 
 
-movies = [toy_story, avatar, the_intouchables]
+def open():
+    movies = [toy_story, avatar, the_intouchables]
+    fresh_tomatoes.open_movies_page(movies)
 
-fresh_tomatoes.open_movies_page(movies)
+
+def main():
+    open()
+
+if __name__ == '__main__':
+    main()
 
