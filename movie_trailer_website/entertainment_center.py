@@ -8,6 +8,11 @@ toy_story = media.Movie("Toy Story",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
+emanuelle = media.Movie("Emanuelle",
+                        "The wife of a French diplomat in Bangkok, Emmanuelle "
+                        "embarks on a voyage of sexual discovery.",
+                        "https://upload.wikimedia.org/wikipedia/en/1/1a/Emmanuelle-american-poster.jpg",
+                        "https://www.youtube.com/watch?v=rX3mfMZzfZw")
 
 avatar = media.Movie("Avatar",
                      "A paraplegic marine dispatched to the moon Pandora on a "
@@ -23,9 +28,15 @@ the_intouchables = media.Movie("The Intouchables",
                                "https://upload.wikimedia.org/wikipedia/en/9/93/The_Intouchables.jpg",
                                "https://www.youtube.com/watch?v=34WIbmXkewU")
 
+kttp = media.Movie("Who's Singin' Over There? ",
+                   "It's April 5, 1941, somewhere in Serbia. A group of people "
+                   "go on a bus to Belgrade, on a journey that will change "
+                   "their lives forever.",
+                   "https://upload.wikimedia.org/wikipedia/en/c/cb/Who%27s_Singin%27_Over_There_Poster.jpg",
+                   "")
 
 def open():
-    movies = [toy_story, avatar, the_intouchables]
+    movies = [toy_story, avatar, the_intouchables, emanuelle, kttp]
     fresh_tomatoes.open_movies_page(movies)
 
 
