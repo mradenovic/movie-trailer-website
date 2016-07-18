@@ -1,4 +1,5 @@
 """Modul contains data about movies and exposes open() function"""
+
 import media
 import fresh_tomatoes
 
@@ -38,13 +39,12 @@ kttp = media.Movie("Who's Singin' Over There? ",
 
 def open():
     """Opens Movie Trailer Website page"""
+
     movies = [toy_story, avatar, the_intouchables, emanuelle, kttp]
     fresh_tomatoes.open_movies_page(movies)
-
 
 def main():
     open()
 
 if __name__ == '__main__':
     main()
-
